@@ -1,0 +1,38 @@
+.expenses__wrap {
+  margin: 6px;
+}
+
+.expense__wrap {
+  display: flex;
+  padding: 6px;
+  margin: 4px;
+  border-radius: 4px;
+  background-color: gray;
+  color: whitesmoke;
+  justify-content: space-between;
+}
+
+.date__wrap {
+  background-color: orange;
+  text-align: center;
+  padding: 6px;
+  border-radius: 4px;
+  width: 45px;
+  font-weight: 600;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  justify-content: end;
+}
+.expense__text {
+  padding-left: 8px;
+  font-weight: 600;
+  overflow: hidden;
+}
