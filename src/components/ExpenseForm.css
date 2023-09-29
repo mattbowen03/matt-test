@@ -1,0 +1,32 @@
+.form__wrap {
+  display: flex;
+  padding: 12px;
+}
+
+.expense__form {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+input {
+  width: auto;
+  height: 25px;
+  margin: 4px 0;
+  border-radius: 4px;
+  border: solid 1px grey;
+  color: gray;
+  background-color: lightgrey;
+}
+
+label {
+  color: white;
+}
+
+button {
+  background-color: grey;
+  color: snow;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+}

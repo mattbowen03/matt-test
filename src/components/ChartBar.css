@@ -1,0 +1,21 @@
+.chartbar {
+  width: 16px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+.fill {
+  border-radius: 0 0 4px 4px;
+  background-color: green;
+}
+
+.empty {
+  border-radius: 4px 4px 0 0;
+  background-color: snow;
+}
+
+p {
+  font-size: 12px;
+  color: #181818;
+  margin: 8px 0;
+}

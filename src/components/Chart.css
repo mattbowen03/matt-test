@@ -1,0 +1,9 @@
+.chart__wrap {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  background-color: gray;
+  border-radius: 4px;
+  margin: 10px;
+}
