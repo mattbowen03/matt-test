@@ -12,7 +12,7 @@ function ExpenseForm({ addExpense }) {
     const expenseData = {
       id: Math.floor(Math.random() * 1234),
       name: itemName,
-      amount: amount,
+      amount: Math.round(amount * 100) / 100,
       date: new Date(date),
     };
 
